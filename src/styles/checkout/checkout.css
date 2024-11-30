@@ -1,0 +1,58 @@
+/* HTML: <div class="loader"></div> */
+/* logo loading */
+.loader {
+    height: 3px;
+    width: 60px;
+    background: linear-gradient(#000 0 0) right/51% 100% no-repeat;
+    display: flex;
+    animation: l10-0 2s linear infinite;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    width: 15px;
+    background: #000;
+    animation: l10-1 2s linear infinite;
+  }
+  .loader:after {
+    animation-delay: -1s;
+    --s:-1;
+  }
+  @keyframes l10-1 {
+    0%,100%{transform:scaleX(var(--s,1)) rotate(0)}
+    25%,75%   {transform:scaleX(var(--s,1)) rotate(180deg)}
+  }
+  
+  @keyframes l10-0 {
+    0%,49.9%{transform:scaleX( 1)}
+    50%,100%{transform:scaleX(-1)}
+  }
+
+  .activeBor{
+    border: 2px solid #009176;
+  }
+
+/* // for check out btn loader */
+/* HTML: <div class="loader"></div> */
+.loadercb {
+  display: inline-flex;
+  gap: 10px;
+}
+.loadercb:before,
+.loadercb:after {
+  content: "";
+  height: 20px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(farthest-side,#000 95%,#0000) 35% 35%/6px 6px no-repeat
+    #fff;
+  animation: l5 3s infinite;
+}
+@keyframes l5 {
+  0%,11%   {background-position:35% 35%}
+  14%,36%  {background-position:65% 35%}
+  38%,61%  {background-position:65% 65%}
+  64%,86%  {background-position:35% 65%}
+  88%,100% {background-position:35% 35%}
+}

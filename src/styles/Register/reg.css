@@ -1,0 +1,46 @@
+.ges-bg{
+    background-image: url('../../assets/SVG/resgister/img/im2.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center right ;
+}
+.ges-bg-2{
+    background-image: url('../../assets/SVG/resgister/img/im1.png');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position:  bottom left;
+}
+.ges-bg-3{
+    background-image: url('../../assets/SVG/resgister/img/im4.png');
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position: center bottom;
+    background-size: 600px;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: gray !important;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader-cus {
+    width: fit-content;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-bottom: 8px;
+    background: linear-gradient(currentColor 0 0) 0 100%/0% 3px no-repeat;
+    animation: l2 2s linear infinite;
+  }
+  .loader-cus:before {
+    content:"Loading..."
+  }
+  @keyframes l2 {to{background-size: 100% 3px}}
+
+.reg-right-bg{
+    background-image: url("../../assets/SVG/resgister/img/regright.jpg");
+    background-repeat: no-repeat;
+    object-fit: contain;
+    width: 100%;
+    background-position: center ;
+}

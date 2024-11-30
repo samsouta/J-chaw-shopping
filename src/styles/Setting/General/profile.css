@@ -1,0 +1,13 @@
+#input-form #name , textarea{
+    background-color: white !important;
+}
+#input-form #email , textarea{
+    background-color: white !important;
+}
+#input-form #curpass , textarea{
+    background-color: white !important;
+}
+#input-form #newpass , textarea{
+    background-color: white !important;
+}
+

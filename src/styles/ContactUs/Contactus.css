@@ -1,0 +1,10 @@
+#input-form #name , textarea{
+    background-color: white !important;
+}
+#input-form #email , textarea{
+    background-color: white !important;
+}
+
+#input-form #checkbox{
+    color: #009176 !important;
+}

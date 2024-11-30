@@ -1,0 +1,8 @@
+
+.app {
+    transform: scale(1);
+}
+
+#h-data9-color input, textarea{
+    background-color:white !important;
+}

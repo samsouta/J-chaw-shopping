@@ -1,0 +1,14 @@
+@import "./styles/color.css";
+@import "./styles/Home/Home.css";
+@import "./styles/fonts.css";
+@import "./styles/ContactUs/Contactus.css";
+@import "./styles/Navbar/navbar.css";
+@import "./styles/AddTocard/addtocard.css";
+@import "./styles/Setting/General/profile.css";
+@import './styles/Register/reg.css';
+@import "././styles/Loader/loader.css";
+@import "./styles/checkout/checkout.css";
+@import "./styles/About/aboutme.css";
+@import "./styles//About/aboutJoinOurTeam.css";
+@import "./styles/Body/Body.css";
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@200;300;400&family=Nunito:wght@200;300;400&display=swap');

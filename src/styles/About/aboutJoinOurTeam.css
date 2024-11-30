@@ -1,0 +1,9 @@
+.join-our-team-bg {
+    background-color: var(--color-e) !important;
+}
+.join-our-team-icon {
+    color: var(--color-d);
+}
+.join-out-team-click {
+    color: var(--color-c);
+}
